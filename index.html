@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>iphone_landing page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="top"></div>
+
+    <div class="main">
+        <i class="fa fa-apple" aria-hidden="true"></i>
+        <i class="fa fa-th-list" aria-hidden="true" onclick="navbar()"></i>
+        <div class="navbar">
+            <!--- navigation menu --->
+            <ul>
+                <li>home</li>
+                <li>service</li>
+                <li>contact</li>
+                <li>management</li>
+            </ul>
+        </div>
+        <!--- Left part --->
+        <div class="left">
+            <p>special edition</p>
+            <p>iphone 11 <span>R</span></p>
+            <p>product(red)</p>
+            <p>Why pay the premium price for the latest iPhone 11 When you can win one for free?
+                Welcome to the free giveaway.
+            </p>
+            <a href="http://bit.ly/2ZgEU5y">
+                <button class="btn">Claim Your iPhone</button>
+            </a>
+        </div>
+        <!--- Right part --->
+        <div class="right">
+            <div class="social">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </div>
+            <img src="55/iphone11-red-select-2019_GEO_EMEA.png">
+        </div>
+        <div class="buttom">
+            <!--- Add video --->
+            <video src="55/Introducing iPhone 11 — Apple.mp4" controls="true" autoplay="on" muted="true"
+                loop="true"></video>
+            <p></p>
+            <p>watch trailer</p>
+        </div>
+    </div>
+
+
+    <!--- script for add active class --->
+
+    <script type="text/javascript">
+        function navbar() {
+            var nav = document.querySelector('.navbar');
+            nav.classList.toggle('active');
+        }
+    </script>
+
+</body>
+
+</html>
